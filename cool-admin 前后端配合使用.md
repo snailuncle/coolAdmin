@@ -62,7 +62,7 @@ QQ: 203118908
 
 ## 前端
 
-1. 编写测试页面, 文件路径 `app\bannertest\bannertest.vue`, 代码片段`cl-curd`
+1. 编写测试页面, 文件路径 `views\app\bannertest\bannertest.vue`, 代码片段`cl-curd`
 
 2. 在测试页面的`onLoad`方法中, 设置服务
 
@@ -71,7 +71,7 @@ QQ: 203118908
    		onLoad({ ctx, app }) {
    			this.crud = app;
    
-   			`ctx.service(this.$service.app.bannertest)`
+   			ctx.service(this.$service.app.bannertest)
    			
    				.set('upsert', {
    					items: [

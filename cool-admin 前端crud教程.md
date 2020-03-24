@@ -8,7 +8,7 @@ QQ: 203118908
 
 1. 创建一个vue测试页面 
 
-   文件路径: `src\views\test\curd-test.vue`
+   文件路径: `src\views\test\crud-test.vue`
 
    代码片段: `cl-crud`
 
@@ -752,9 +752,10 @@ export default {
 
     1. 在div中新建一个el-dialog弹窗
 2. 在data()中添加一个visible属性 值为false
+    
     3. 在onTest中, 将visible设置为true
 4. 点击自定义按钮, 就能看见自定义表单了
-    
+   
 ```vue
     <template>
 	<div>
@@ -881,8 +882,8 @@ export default {
     
     <style lang="stylus" scoped></style>
     
-    ```
-    
+```
+
 22. 图片上传
 
     1. 在 set upsert items 中, 添加一个头像对象
@@ -905,7 +906,7 @@ export default {
 
 
     这个步骤的完整代码如下: 
-
+    
     ```vue
     <template>
     	<div>
