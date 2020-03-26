@@ -3,8 +3,6 @@
 
 QQ: 203118908
 
-视频: https://www.bilibili.com/video/bv1VE411c7he
-
 ## 正文
 
 1. 在`app\entity\test\test.ts`中填写数据库信息. (代码片段: entity)
